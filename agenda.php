@@ -176,8 +176,8 @@ if (isset($_GET['delete'])) {
                 echo "<td>{$contact['name']}</td>";
                 echo "<td>{$contact['phone']}</td>";
                 echo "<td>
-                        <a href='?edit=$index' class='edit-button'> editar </a> 
-                        <a href='?delete=$index' class='delete-button'>Excluir    </a>
+                        <a href='?edit=$index' class='edit-button'><img src='img/editar.png' alt='Editar'></a> 
+                        <a href='?delete=$index' class='delete-button'><img src='img/excluir.png' alt='Excluir'>  </a>
                     </td>";
                 echo "</tr>";
             }
